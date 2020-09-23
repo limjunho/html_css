@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Infomation</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Create An Account</h1>
+    </header>
+    <main>
+      <form>
+        <span>
+          First Name
+          <input
+            type="text"
+            id="first_name"
+            placeholder="First Name"
+            required
+          />
+        </span>
+        <br />
+
+        <span>
+          Last Name
+          <input type="text" id="last_name" placeholder="Last Name" required />
+        </span>
+        <br />
+
+        <span>
+          Email Name
+          <input type="email" id="eamli" placeholder="Email Name" required />
+        </span>
+        <br />
+
+        <span>
+          User Name
+          <input type="text" id="user_name" placeholder="User Name" required />
+        </span>
+        <br />
+
+        <span>
+          PassWord
+          <input
+            type="password"
+            id="PassWord"
+            placeholder="PassWord"
+            required
+            minlength="10"
+          />
+        </span>
+        <br />
+
+        <span>
+          Birth Day
+          <input type="date" id="calender" />
+        </span>
+        <br />
+
+        <span>
+          How happy are you?
+          <input type="range" id="range" />
+        </span>
+        <br />
+
+        <span>
+          What is fav.color?
+          <input type="color" id="color" />
+        </span>
+        <br />
+
+        <input type="submit" id="button" value="Create Account" />
+      </form>
+    </main>
+  </body>
+</html>
